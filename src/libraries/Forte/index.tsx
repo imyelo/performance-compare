@@ -61,7 +61,7 @@ export default function Form() {
 
   return (
     <div>
-      <h1>React Hook Form</h1>
+      <h1>Forte</h1>
       <ForteForm forte={$forte} onSubmit={onSubmit}>
         <FormList path="emails">{({ map }) => map(() => <Email />)}</FormList>
         <Field path="username">
