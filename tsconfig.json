@@ -1,0 +1,11 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "composite": false,
+    "lib": ["ES2017", "DOM"],
+    "target": "ES5",
+    "baseUrl": "src",
+    "outDir": "tsbuild"
+  },
+  "exclude": ["dist"]
+}

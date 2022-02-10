@@ -1,3 +1,5 @@
+// @ts-nocheck
+
 import { createStore, combineReducers } from 'redux';
 import { reducer as reduxFormReducer } from 'redux-form';
 

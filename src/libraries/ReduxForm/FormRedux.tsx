@@ -3,7 +3,7 @@ import { Field, reduxForm } from 'redux-form';
 import createArrayWithNumbers from '../../utils/createArrayWithNumbers';
 
 const validate = values => {
-  const errors = {};
+  const errors: Record<string, unknown> = {};
 
   if (!values.username) {
     errors.username = 'Required';
