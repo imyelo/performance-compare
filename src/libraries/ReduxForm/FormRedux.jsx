@@ -1,7 +1,6 @@
 import React from 'react';
 import { Field, reduxForm } from 'redux-form';
-import createArrayWithNumbers from './createArrayWithNumbers';
-import { Form } from 'formik';
+import createArrayWithNumbers from '../../utils/createArrayWithNumbers';
 
 const validate = values => {
   const errors = {};

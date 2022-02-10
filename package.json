@@ -3,13 +3,16 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^16.8.6",
-    "react-dom": "^16.8.6",
-    "react-hook-form": "^3.0.2",
-    "react-redux": "^7.0.3",
-    "react-scripts": "3.0.0",
-    "redux": "^4.0.1",
-    "redux-form": "latest"
+    "formik": "^2.2.0",
+    "react": "^17.0.0",
+    "react-dom": "^17.0.0",
+    "react-hook-form": "^7.26.0",
+    "react-redux": "^7.2.0",
+    "redux": "^4.1.0",
+    "redux-form": "^8.3.0"
+  },
+  "devDependencies": {
+    "react-scripts": "5.0.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -31,8 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "formik": "^1.5.4"
   }
 }
